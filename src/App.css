@@ -65,7 +65,7 @@
     max-width: 75%;
     min-height: 100vh;
     margin: auto;
-    padding: 20px 50px 10px 50px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 5px 5px rgba(81, 96, 109, 0.2);
     border: 1px solid #dfdfdf;
@@ -73,6 +73,10 @@
 }
 
 @media (max-width: 900px) {
+    .App {
+
+    }
+
     .Nav {
         position: fixed;
         top: 0;
@@ -90,7 +94,11 @@
         -moz-box-shadow: 8px 3px 7px -1px rgba(84,84,84,0.59);
         border-bottom: none;
     }
+
     .Content {
-        max-width: 75%;
+        max-width: 100%;
+        margin-bottom: 0;
+        margin-left: 200px;
+        padding: 20px;
     }
 }
