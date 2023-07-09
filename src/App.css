@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/Regular.ttf')
+}
+
+.Nav {
+    font-family: 'Roboto Condensed', BoldItalic, serif;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgba(250, 119, 119, 0.89);
+    background-color: #343a40;
+    margin-bottom: 30px;
+}
+
+.Nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.Nav li {
+    display: inline-block;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.Nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Nav a:hover {
+    color: #a9a9a9;
+}
+
+.link {
+
+}
+
+.Header {
+    text-decoration: none;
+    text-align: left;
+}
+
+.Auth {
+
+}
+
+.Nav-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.Content {
+    text-align: left;
+    max-width: 75%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px 50px 10px 50px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgba(81, 96, 109, 0.2);
+    border: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    .Nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 100%;
+        background-color: #343a40;
+        color: #fff;
+        text-align: left;
+        transition: transform 300ms linear;
+        box-shadow: 8px 3px 7px -1px rgba(84,84,84,0.59);
+        -webkit-box-shadow: 8px 3px 7px -1px rgba(84,84,84,0.59);
+        -moz-box-shadow: 8px 3px 7px -1px rgba(84,84,84,0.59);
+        border-bottom: none;
+    }
+    .Content {
+        max-width: 75%;
+    }
+}
