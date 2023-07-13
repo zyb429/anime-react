@@ -1,6 +1,8 @@
 import React from 'react';
 import "../App.css";
 import PreviewImage from "../icons/preview.jpg";
+import ReactPlayer from 'react-player';
+
 function Content () {
     return (
         <div className={"Content"}>
@@ -11,7 +13,9 @@ function Content () {
                     <p>Тип: </p>
                 </div>
             </div>
-
+            <div className={"Player"}>
+                <ReactPlayer url={"https://www.youtube.com/watch?v=s0ciibpl8go"}/>
+            </div>
         </div>
     );
 }
